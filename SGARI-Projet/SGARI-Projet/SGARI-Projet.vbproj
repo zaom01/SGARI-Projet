@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36719173-C5AB-4B40-8E53-4288242EE7B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SGARI_Projet.My.MyApplication</StartupObject>
+    <RootNamespace>SGARI_Projet</RootNamespace>
+    <AssemblyName>SGARI-Projet</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SGARI-Projet.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SGARI-Projet.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apropos.Designer.vb">
+      <DependentUpon>Apropos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apropos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangerMotdePasse.Designer.vb">
+      <DependentUpon>FrmChangerMotdePasse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangerMotdePasse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsulter.Designer.vb">
+      <DependentUpon>FrmConsulter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsulter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreer.Designer.vb">
+      <DependentUpon>FrmCreer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCreer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipement.Designer.vb">
+      <DependentUpon>FrmEquipement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacture.Designer.vb">
+      <DependentUpon>FrmFacture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModifier.Designer.vb">
+      <DependentUpon>FrmModifier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModifier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModifierFournisseur.Designer.vb">
+      <DependentUpon>FrmModifierFournisseur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModifierFournisseur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewFournisseur.Designer.vb">
+      <DependentUpon>FrmNewFournisseur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewFournisseur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResilier.Designer.vb">
+      <DependentUpon>FrmResilier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResilier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paiement.Designer.vb">
+      <DependentUpon>Paiement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paiement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service.Designer.vb">
+      <DependentUpon>Service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Service.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxes.Designer.vb">
+      <DependentUpon>Taxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Taxes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListeUtilisateur.Designer.vb">
+      <DependentUpon>ListeUtilisateur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListeUtilisateur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmRenouveller.Designer.vb">
+      <DependentUpon>FrmRenouveller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRenouveller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SgariBddDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SgariBddDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Apropos.resx">
+      <DependentUpon>Apropos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangerMotdePasse.resx">
+      <DependentUpon>FrmChangerMotdePasse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsulter.resx">
+      <DependentUpon>FrmConsulter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreer.resx">
+      <DependentUpon>FrmCreer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipement.resx">
+      <DependentUpon>FrmEquipement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacture.resx">
+      <DependentUpon>FrmFacture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModifier.resx">
+      <DependentUpon>FrmModifier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModifierFournisseur.resx">
+      <DependentUpon>FrmModifierFournisseur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewFournisseur.resx">
+      <DependentUpon>FrmNewFournisseur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResilier.resx">
+      <DependentUpon>FrmResilier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListeUtilisateur.resx">
+      <DependentUpon>ListeUtilisateur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRenouveller.resx">
+      <DependentUpon>FrmRenouveller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paiement.resx">
+      <DependentUpon>Paiement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service.resx">
+      <DependentUpon>Service.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxes.resx">
+      <DependentUpon>Taxes.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SgariBddDataSet.xsc">
+      <DependentUpon>SgariBddDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SgariBddDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SgariBddDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SgariBddDataSet.xss">
+      <DependentUpon>SgariBddDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abonnetf.jpg" />
+    <None Include="Resources\01_Gat_UQO_Complet_RGB300.jpg" />
+    <None Include="Resources\01_Gat_UQO_Complet_RGB3001.jpg" />
+    <Content Include="SgariBdd.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

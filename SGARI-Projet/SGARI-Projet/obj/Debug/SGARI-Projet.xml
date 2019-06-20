@@ -1,0 +1,276 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SGARI-Projet
+</name>
+</assembly>
+<members>
+<member name="T:SGARI_Projet.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources._01_Gat_UQO_Complet_RGB300">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources._01_Gat_UQO_Complet_RGB3001">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.Abonnetf">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.Afric_jpeg">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.calendar_icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_application_form_edit_35650">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_button_synchronize_blue_68694">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_Exit_button_132189">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_Exit_button_1321891">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_Log_Out_27856">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_new_doc_11104">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_OK_32520">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_search_button_36847">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_trash_100984">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_update_216776">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.if_update_64935">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SGARI_Projet.My.Resources.Resources.Printer">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.CLIENTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.CONTRATDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.EMPLOYEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.ENTREPRISEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.PARTICULIERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.SOUSCRITDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.CLIENTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.CONTRATRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.EMPLOYERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.ENTREPRISERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.PARTICULIERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.SOUSCRITRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.CLIENTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.CONTRATRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.EMPLOYERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.ENTREPRISERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.PARTICULIERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSet.SOUSCRITRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.CLIENTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.CONTRATTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.EMPLOYETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.ENTREPRISETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.PARTICULIERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.SOUSCRITTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SGARI_Projet.SgariBddDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SGARI_Projet.SgariBddDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SGARI_Projet.SgariBddDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.UpdateAll(SGARI_Projet.SgariBddDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SGARI_Projet.SgariBddDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
