@@ -295,4 +295,8 @@ Public Class FrmEquipement
         ButtonMajType.Enabled = True
         ButtonQuitter.Enabled = True
     End Sub
+
+    Private Sub GroupBox5_Enter(sender As Object, e As EventArgs) Handles GroupBox5.Enter
+
+    End Sub
 End Class

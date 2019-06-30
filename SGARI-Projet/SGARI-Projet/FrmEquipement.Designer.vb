@@ -332,7 +332,7 @@ Partial Class FrmEquipement
         'Calendar2
         '
         Me.Calendar2.Location = New System.Drawing.Point(1202, 545)
-        Me.Calendar2.Margin = New System.Windows.Forms.Padding(14, 14, 14, 14)
+        Me.Calendar2.Margin = New System.Windows.Forms.Padding(14)
         Me.Calendar2.Name = "Calendar2"
         Me.Calendar2.TabIndex = 28
         Me.Calendar2.Visible = False
@@ -340,7 +340,7 @@ Partial Class FrmEquipement
         'Calendar1
         '
         Me.Calendar1.Location = New System.Drawing.Point(760, 545)
-        Me.Calendar1.Margin = New System.Windows.Forms.Padding(14, 14, 14, 14)
+        Me.Calendar1.Margin = New System.Windows.Forms.Padding(14)
         Me.Calendar1.Name = "Calendar1"
         Me.Calendar1.TabIndex = 27
         Me.Calendar1.Visible = False

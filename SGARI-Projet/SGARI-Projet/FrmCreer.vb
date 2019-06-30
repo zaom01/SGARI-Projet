@@ -3,7 +3,7 @@
 
 Public Class FrmCreer
     ' On definit la connexionString qui contient l'information a utiliser pour ouvrir la connexion
-    Dim objCnn As New System.Data.OleDb.OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\SgariBdd.accdb")
+    Dim objCnn As New System.Data.OleDb.OleDbConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\zaoua\Desktop\SGARI-Projet\SGARI-Projet\SGARI-Projet\SGARI.mdf;Integrated Security=True")
 
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CmbBoxTypeClient.SelectedIndexChanged
@@ -315,6 +315,10 @@ Public Class FrmCreer
                 MessageBox.Show("Veuillez réviser vos choix", "Information requise manquante", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
         End If
+    End Sub
+
+    Private Sub TxtBoxAdresse_TextChanged(sender As Object, e As EventArgs) Handles TxtBoxAdresse.TextChanged
+
     End Sub
 End Class
 

@@ -1,7 +1,7 @@
 ﻿Imports System.Data.OleDb
 
 Public Class FrmConsulter
-    Dim objCnn As New System.Data.OleDb.OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\SgariBdd.accdb")
+    Dim objCnn As New System.Data.OleDb.OleDbConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\zaoua\Desktop\SGARI-Projet\SGARI-Projet\SGARI-Projet\SGARI.mdf;Integrated Security=True")
 
     'Dim objCmd As New System.Data.OleDb.OleDbCommand
 
@@ -52,5 +52,7 @@ Public Class FrmConsulter
         Me.Close()
     End Sub
 
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
 
+    End Sub
 End Class
